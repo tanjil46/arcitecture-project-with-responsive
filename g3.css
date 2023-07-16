@@ -1,0 +1,170 @@
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&family=Roboto+Condensed:wght@300&family=Work+Sans:wght@500;600;700&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Work Sans', sans-serif; 
+
+}
+
+
+.btn{
+    margin: 10px 0;
+    border: none;
+    border: 1px solid black;
+    font-size: 12px;
+    padding: 13px;
+    background-color: orangered;
+    color: white;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+.btn:hover{
+    border-radius: 10px;
+    background-color: aqua;
+}
+
+
+/*NAV-MENU STYLE*/
+
+.nav-bar ul{
+   display: flex;
+}
+
+header{
+    padding: 50px 120px;
+    background-color: antiquewhite;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    
+   
+    
+}
+
+.g3-heading{
+    color:black;
+
+}
+
+.nav-bar ul li a{
+    margin:  20px;
+    color: black;
+    transition: all 0.3s;
+}
+
+
+.nav-bar ul li a:hover{
+color: white;
+background-color: black;
+padding: 10px;
+border-radius: 10px;
+}
+
+
+
+
+.banner-img img{
+    width: 100%;
+    height: 400px;
+    margin: 20px 0;
+}
+
+
+.banner-container{
+    text-align: center;
+   margin: 50px;
+    align-items: center;
+}
+
+
+.banner-starter{
+margin: 0 auto;
+max-width: 800px;
+
+}
+
+.banner-title{
+    padding: 15px 0;
+}
+
+
+
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    
+
+     nav{
+        flex-direction: column;
+     }
+   
+
+      .nav-bar>ul{
+      padding: 25px 0;
+      }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+@media screen and (min-width:576px) and (max-width:960px) {
+        header{
+            padding: 50px;
+        }
+
+
+
+        nav{
+            flex-direction: column;
+        }
+
+
+
+
+
+
+
+
+
+    .nav-bar>ul{
+        display: block;
+        
+     }
+        .nav-bar ul li {
+            margin: 25px 0;
+            
+        }
+
+    
+}
